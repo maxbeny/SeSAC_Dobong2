@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html lang="ko">
+ <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>과제</title>
+      <!-- font awseom cdm -->
+      <script src="https://kit.fontawesome.com/83b554a24a.js" crossorigin="anonymous"></script>
+<style>
+div{
+    width: 200px;
+    height: 200px;
+    border: solid pink;
+    border-radius: 10%;
+    position: absolute; 
+    background-color: black;
+}
+
+@media screen and (min-width: 700px){
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+    .a2{
+    left: 250px;
+}
+.a3{
+    left: 500px;
+}
+}
+@media screen and (max-width: 700px){
+    div{
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+    }
+    .a2{
+    top: 250px;
+}
+.a3{
+    top: 500px;
+}
+}
+</style>
+    </head>
+    <body>
+        <div class="a1"></div>
+        <div class="a2"></div>
+        <div class="a3"></div>
+    </body>
+ </html>

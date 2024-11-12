@@ -1,1 +1,5 @@
-# C-Users-HW2261-Desktop-github-SSAC_2
+# Sesac-Dobong-2-WEB
+
+## 오늘은 수업의 첫날이다
+
+### git을 조금 배웠다.

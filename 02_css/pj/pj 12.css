@@ -1,0 +1,33 @@
+.box{
+    width: 500px;
+    height: 500px;
+}
+
+.box-in{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgb(#FFE600, #FF0080, hsl(300, 75%, 49%));
+    background: linear-gradient(rgb(255, 0, 98),rgb(241, 255, 46),rgb(300, 75 ,49));
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+.box-in-box{
+    position: absolute;
+    top: 61%;
+    left: 62%;
+    width: 200px;
+    height: 200px;
+    margin-left: -125px;
+    margin-top: -125px;
+    background-image: url("./owl.png");
+    background-size: cover;
+    background-color: white;
+    background-position:center;
+    background-position:top 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 4px white;
+}

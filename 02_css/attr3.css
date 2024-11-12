@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(white, orange)
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.position-static{
+background-color: pink;
+/* position static이 deafult값 */
+/* static은 이동 불가능 top, bottom, left, right 속성이 영향이 없음 */
+position: static;
+}
+.position-relative{
+background-color: aquamarine;
+/* position relative의 기준은 자기 자신 */
+/* 자신의 자리는 남아있음 -> 문서 흐름을 해치지 않는다*/
+position: relative;
+left: 100px;
+}
+.position-absolute{
+background-color: gold;
+position: absolute;
+right: 100px;
+top: 100px;
+}
+.position-fixed{
+background-color: coral;
+position: fixed;
+top: 100px;
+right: 200px;
+}
+.absolute2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 10px;
+    background-color: dodgerblue;
+    top: 0;
+    bottom: 0;
+}
+
+.parent{
+    position: relative;
+    width: 300px;
+    border: 3px dotted dodgerblue;
+}
+
+.parent > .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1{
+    background-color: #84ffd8;
+    left: 200px;
+}
+.circle2{
+background-color: red;
+left: 150px;
+}
+.circle3{
+    background-color: rosybrown;
+    left: 100px;
+    z-index: 10;
+}
+.circle4{
+background-color: violet;
+left: 50px;
+z-index: 9;
+}
+.circle5{
+background-color: palegoldenrod;
+left: 0px;
+}

@@ -1,0 +1,36 @@
+*{
+    background-color: ivory;
+}
+
+
+.box{ 
+    border: dotted black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box.box1{
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+.box.box2{
+    position: relative;
+left: 500px;
+}
+.box.box3{
+
+}
+img{
+    width: 300px;
+    height: 150px;
+}
+
+img:hover{
+    transform: perspective(400px) rotateX(60deg);
+    
+    backface-visibility: visible;
+}

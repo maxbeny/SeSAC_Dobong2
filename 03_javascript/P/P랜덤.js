@@ -1,0 +1,1 @@
+console.log('난수:', Math.floor(Math.random()*11))

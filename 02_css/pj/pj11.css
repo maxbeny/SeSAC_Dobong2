@@ -1,0 +1,10 @@
+.box{
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    background-color: skyblue;
+    border: solid black;
+}
+
+.no1{
+}
