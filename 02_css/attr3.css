@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(white, orange)
+    height: 2000px;
+    background: linear-gradient(white, orange);
 }
 
 div{
@@ -13,30 +14,37 @@ div{
 }
 
 .position-static{
-background-color: pink;
-/* position static이 deafult값 */
-/* static은 이동 불가능 top, bottom, left, right 속성이 영향이 없음 */
-position: static;
+    background-color: pink;
+    /* position static이 default 값 */
+    /* static은 이동 불가능! top, bottom, left, right 속성 영향 X */
+    position: static;
+    top: 100px;
+    left: 500px;
 }
+
 .position-relative{
-background-color: aquamarine;
-/* position relative의 기준은 자기 자신 */
-/* 자신의 자리는 남아있음 -> 문서 흐름을 해치지 않는다*/
-position: relative;
-left: 100px;
+    background-color: aquamarine;
+    /* position relative 의 기준은 자기 자신 */
+    /* 자신의 자리는 남아있음! -> 문서 흐름을 해치지 않음 */
+    position: relative;
+    left: 100px;
+    /* top: 50px; */
 }
+
 .position-absolute{
-background-color: gold;
-position: absolute;
-right: 100px;
-top: 100px;
+    background-color: gold;
+    position: absolute;
+    right: 100px;
+    top: 100px;
 }
+
 .position-fixed{
-background-color: coral;
-position: fixed;
-top: 100px;
-right: 200px;
+    background-color: coral;
+    position: fixed;
+    top: 100px;
+    right: 200px;
 }
+
 .absolute2{
     position: absolute;
     width: 50px;
@@ -45,7 +53,6 @@ right: 200px;
     font-size: 10px;
     background-color: dodgerblue;
     top: 0;
-    bottom: 0;
 }
 
 .parent{
@@ -62,24 +69,28 @@ right: 200px;
 }
 
 .circle1{
-    background-color: #84ffd8;
+    background-color: #9afaff;
     left: 200px;
 }
+
 .circle2{
-background-color: red;
-left: 150px;
+    background-color: #84ff8d;
+    left: 150px;
 }
+
 .circle3{
-    background-color: rosybrown;
+    background-color: #ffeb88;
     left: 100px;
     z-index: 10;
 }
+
 .circle4{
-background-color: violet;
-left: 50px;
-z-index: 9;
+    background-color: #ffb680;
+    left: 50px;
+    z-index: 5;
 }
+
 .circle5{
-background-color: palegoldenrod;
-left: 0px;
+    background-color: #ff7c7c;
+    left: 0px;
 }

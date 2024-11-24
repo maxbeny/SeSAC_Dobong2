@@ -7,18 +7,20 @@
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+    
     <style>
         .color-blue{
-            color:blue;
+            color: blue;
         }
+
         .fs-50{
             font-size: 50px;
         }
+
         .bg-pink{
             background-color: pink;
         }
     </style>
-
     <script defer src="./index2.js"></script>
 </head>
 <body>
@@ -67,12 +69,15 @@
     <h4>append()</h4>
     <button onclick="appendJS()">js로 바꾸기</button>
     <button onclick="appendJQ()">jq로 바꾸기</button>
+
     <h4>prepend()</h4>
     <button onclick="prependJS()">js로 바꾸기</button>
     <button onclick="prependJQ()">jq로 바꾸기</button>
+
     <h4>after()</h4>
     <button onclick="afterJS()">js로 바꾸기</button>
     <button onclick="afterJQ()">jq로 바꾸기</button>
+    
     <h4>before()</h4>
     <button onclick="beforeJS()">js로 바꾸기</button>
     <button onclick="beforeJQ()">jq로 바꾸기</button>
@@ -88,13 +93,13 @@
     <button onclick="removeJS()">js로 바꾸기</button>
     <button onclick="removeJQ()">jq로 바꾸기</button>
     <h4>empty()</h4>
-    
+
     <button onclick="emptyJS()">js로 바꾸기</button>
     <button onclick="emptyJQ()">jq로 바꾸기</button>
 
-    <hr/>
+    <hr />
     <h3>요소 탐색하기</h3>
-    <!-- .ancestor>.parents>.child -->
+    <!-- .ancestor>.parent>.child$*3 -->
     <div class="ancestor">
         <div class="parent">
             <div class="child1">자식1</div>
@@ -110,7 +115,7 @@
 
     <hr />
     <h3>클래스 조작하기</h3>
-    <p id="hi" class="color=blue">HI</p>
+    <p id="hi" class="color-blue">안녕하세요!!</p>
     <button onclick="addClass()">클래스 추가</button>
     <button onclick="removeClass()">클래스 삭제</button>
     <button onclick="hasClass()">클래스 유무확인</button>

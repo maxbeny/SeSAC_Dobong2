@@ -103,7 +103,7 @@ function removeJQ(){
     $('.li2').remove()
 }
 
-//  empty()
+// empty()
 function emptyJS(){
     let nums = document.querySelector('ul.nums')
     nums.innerHTML=''

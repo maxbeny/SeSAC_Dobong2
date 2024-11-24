@@ -1,7 +1,5 @@
-# Sesac-Dobong-2-WEB
+# SeSAC_Dobong2_web
 
-## 오늘은 수업의 첫날이다
+## 오늘은 수업의 첫날입니다!!
 
-### git을 조금 배웠다.
-
-2024.11.13 ~bootstrap 까지 완료
+### git이 어렵네요..
